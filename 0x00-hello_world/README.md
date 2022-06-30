@@ -1,1 +1,1 @@
-Practice exercises of C programming
+Practice exercise of gcc compilation in c programming 
