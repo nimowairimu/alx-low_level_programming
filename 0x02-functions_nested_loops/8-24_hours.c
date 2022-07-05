@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
  * jack_bauer - Prints every minute of the day of
@@ -17,7 +17,7 @@ void jack_bauer(void)
 			_putchar(':');
 			_putchar((minute / 10) + '0');
 			_putchar((minute % 10) + '0');
-			_putchar('\n');	
+			_putchar('\n');
 		}
 	}
 }
