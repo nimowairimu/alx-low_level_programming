@@ -12,9 +12,9 @@ void times_table(void)
 		_putchar('0');
 
 		for (mult = 1; mult <= 9; mult++)
-		
+	        {
 			_putchar(',');
-		        _putchar(' ');
+			_putchar(' ');
 
 			prod = num * mult;
 
