@@ -1,5 +1,4 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
  * main prints putchar followed by a new line 
  *
@@ -7,6 +6,7 @@
  */
 int main (void)
 { 
+	_putchar('_');
 	_putcar('p');
 	_putchar('u');
 	_putchar('t');
