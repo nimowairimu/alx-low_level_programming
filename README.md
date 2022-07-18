@@ -1,1 +1,1 @@
-This is a repo on C programming
+More pointers and arrays 
