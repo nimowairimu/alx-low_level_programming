@@ -8,9 +8,7 @@
  * Return: Upon failure - 0.
  *         Otherwise - 1.
  */
-
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
-
 {
 	hash_node_t *new;
 	char *value_copy;
@@ -43,11 +41,11 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	new->key = strdup(key);
 	if (new->key == NULL)														
 	{																	
-		free(new);																		
+		free(new);
 		return (0);
 	}
 	new->value = value_cop;
-	new->next = ht->array[index];											
+	new->next = ht->array[index];
 	ht->array[index] = new;
 
 	return (1);
